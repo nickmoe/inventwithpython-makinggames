@@ -8,7 +8,8 @@ fpsClock = pygame.time.Clock()
 
 # set up the window
 DISPLAYSURF = pygame.display.set_mode((400, 300), 0, 32)
-pygame.display.set_caption('Animation')
+pygame.display.set_caption('Animation')
+
 
 WHITE = (255, 255, 255)
 RIGHT = 1
@@ -19,7 +20,6 @@ catImg = pygame.image.load('resources/images/cat.png')
 boundary = ((10, 10), (280, 220))
 catx = 10
 caty = 10
-cat = (boundary[0][0], boundary[0][1])
 movespeed = 5
 direction = RIGHT
 
